@@ -1,0 +1,230 @@
+body{
+	background:#F5F6FA;
+}
+header{
+	width:100%;
+	overflow:hidden;
+}
+header .zt{
+	width:100%;
+	height:0.4rem;
+	overflow:hidden;
+}
+header .zt>img{
+	width:100%;
+	height:0.4rem;
+}
+.banner{
+	width:100%;
+	height:1.02rem;
+	background:#0078E6;
+	line-height: 1.02rem;
+	text-align: center;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner>span{
+	display:block;
+	color:#FFFFFF;
+	font-size:0.37rem;
+}
+.banner>img{
+	width:0.72rem;
+	height:0.7rem;
+}
+.picture{
+	width:100%;
+	/*height:auto;*/
+	/*overflow:hidden;*/
+}
+.picture>img{
+	width:100%;
+	height:2.8rem;
+}
+/*第一层*/
+.floor1{
+	width:100%;
+	overflow:hidden;
+}
+.floor1>ul{
+	width:100%;
+	overflow:hidden;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.floor1>ul>li{
+	width:25%;
+	float:left;
+	text-align: center;
+	/*background: blue;*/
+	margin-top:0.29rem;
+	/*margin-right: 0.3rem;*/
+}
+.floor1>ul>li:nth-child(4){
+	margin-right: ;
+}
+.floor1>ul>li>a{
+	display:block;
+	width:100%;
+	height: auto;
+	
+}
+.floor1>ul>li>a>img{
+	width:1.57rem;
+	height:1.57rem;
+	display:inline-block;
+	text-align: center;
+}
+.floor1>ul>li>a>span{
+	font-size:0.2rem;
+	color:#000000;
+	padding-top: 0.16rem;
+	text-align: center;
+	display:block;
+	width:100%;
+	/*background:red;*/
+}
+/*第二层*/
+.floor2{
+	width:100%;
+	overflow:hidden;
+	background:#fff;
+	margin-top:0.3rem;
+}
+.floor2 .title{
+	width:100%;
+	height:0.65rem;
+	border-bottom: 0.01rem solid #E8E8E8;
+	line-height: 0.65rem;
+	text-align: center;
+	font-size:0.24rem;
+	color:#1378BA;
+}
+.floor2>ul{
+	width:100%;
+	overflow:hidden;
+	border-bottom: 0.01rem solid #E8E8E8;
+}
+.floor2>ul>li{
+	width:50%;
+	overflow:hidden;
+	border-right: 0.01rem solid #E8E8E8;
+	float:left;
+}
+.floor2 ul>li>a{
+	display:block;
+	width:100%;
+}
+.floor2 .left{
+	width:50%;
+	height:2.19rem;
+	float:left;
+	padding-left: 0.16rem;
+	padding-top:0.39rem;
+	/*background:red;*/
+}
+.floor2 .left h2{
+	font-size: 0.24rem;
+	color:#000000;
+}
+.floor2 .left span{
+	font-size: 0.18rem;
+	color:#999999;
+}
+.floor2 .imgbox{
+	width:50%;
+	height:2.19rem;
+	float:right;
+	/*background: blue;*/
+	text-align: center;
+}
+.floor2 .imgbox>img{
+	width:100%;
+	margin-top:0.45rem ;
+}
+.floor2>ol{
+	width:100%;
+	overflow:hidden;
+	border-bottom: 0.01rem solid #E8E8E8;
+}
+.floor2>ol>li{
+	width:33.33%;
+	overflow:hidden;
+	border-right: 0.01rem solid #E8E8E8;
+	float:left;
+}
+.floor2 ol>li>a{
+	display:block;
+	width:100%;
+}
+.floor2 ol .left{
+	width:60%;
+	height:1.38rem;
+	float:right;
+	padding-left: 0.16rem;
+	padding-top:0.39rem;
+	/*text-align: center;*/
+}
+.floor2 ol .left h2{
+	font-size: 0.24rem;
+	color:#000000;
+}
+.floor2 ol .left span{
+	font-size: 0.18rem;
+	color:#999999;
+}
+.floor2 ol .imgbox{
+	width:40%;
+	height:1.38rem;
+	float:left;
+	/*background: blue;*/
+	text-align: center;
+}
+.floor2 ol .imgbox>img{
+	width:100%;
+	height:auto;
+	margin-top:0.45rem ;
+}
+/*第三层*/
+.floor3{
+	width:100%;
+	overflow:hidden;
+	margin-top:0.1rem;
+	background: #fff;
+}
+.floor3>ul{
+	width:100%;
+	overflow:hidden;
+}
+.floor3>ul>li{
+	width:33.33%;
+	float:left;
+	height:0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+}
+.floor3>ul>li>a{
+	width:100%;
+	display:block;
+	display:flex;
+	align-items: center;
+	padding-left: 25%;
+	text-align: center;
+}
+.floor3 ul>li>a>span{
+	font-size:0.25rem;
+	color:#000000;
+	padding-left: 0.1rem;
+}
+.floor3>ul>li:nth-child(2){
+	background: #FF7E00;
+	border-radius:5%;
+}
+.floor3 .span{
+	font-size:0.26rem;
+	color:#fff;
+	font-weight:bolder;
+}
+
