@@ -1,15 +1,13 @@
-header{
+body,html{
 	width:100%;
-	overflow:hidden;
+	height:100%;
 }
-header .zt{
-	width:100%;
-	height:0.4rem;
-	overflow:hidden;
+body{
+	overflow:scroll;
 }
-header .zt>img{
-	width:100%;
-	height:0.4rem;
+html{
+	overflow:hidden;
+	position:relative;
 }
 .banner{
 	width:100%;
@@ -20,6 +18,13 @@ header .zt>img{
 	display:flex;
 	justify-content: center;
 	align-items: center;
+	position:absolute;
+	top:0rem;
+	left:0rem;
+}
+.box{
+	width:100%;
+	height:1.02rem;
 }
 .banner>span{
 	display:block;
@@ -124,11 +129,15 @@ header .zt>img{
 	font-size:0.24rem;
 	color:#000000;
 	padding-left: 0.2rem;
+	padding-top:0.3rem;
 }
 .floor2 ul li{
 	float:left;
 	margin-right:0.1rem;
-	padding-top: 0.3rem;
+	padding-top: 0.1rem;
+}
+.floor2 ul li img{
+	width:0.8rem;
 }
 .floor2 ul li:last-child{
 	float:right;

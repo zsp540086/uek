@@ -1,18 +1,14 @@
+body,html{
+	width:100%;
+	height:100%;
+}
 body{
+	overflow:scroll;
 	background:#F5F6FA;
 }
-header{
-	width:100%;
+html{
+	position:relative;
 	overflow:hidden;
-}
-header .zt{
-	width:100%;
-	height:0.4rem;
-	overflow:hidden;
-}
-header .zt>img{
-	width:100%;
-	height:0.4rem;
 }
 .banner{
 	width:100%;
@@ -23,6 +19,14 @@ header .zt>img{
 	display:flex;
 	justify-content: center;
 	align-items: center;
+	position:absolute;
+	top:0rem;
+	left:0rem;
+	z-index: 99;
+}
+.box{
+	width:100%;
+	height:1.02rem;
 }
 .banner>span{
 	display:block;
@@ -184,7 +188,6 @@ header .zt>img{
 }
 .floor2 ol .imgbox>img{
 	width:100%;
-	height:auto;
 	margin-top:0.45rem ;
 }
 /*第三层*/
@@ -210,8 +213,11 @@ header .zt>img{
 	display:block;
 	display:flex;
 	align-items: center;
-	padding-left: 25%;
-	text-align: center;
+	align-content: center;
+}
+.floor3>ul>li>a>img{
+	width:0.33rem;
+	margin-left:0.5rem;
 }
 .floor3 ul>li>a>span{
 	font-size:0.25rem;

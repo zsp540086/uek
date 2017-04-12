@@ -1,18 +1,14 @@
+body,html{
+	width:100%;
+	height:100%;
+}
 body{
+	overflow:scroll;
 	background:#F5F6FA;
 }
-header{
-	width:100%;
+html{
 	overflow:hidden;
-}
-header .zt{
-	width:100%;
-	height:0.4rem;
-	overflow:hidden;
-}
-header .zt>img{
-	width:100%;
-	height:0.4rem;
+	position:relative;
 }
 .banner{
 	width:100%;
@@ -23,6 +19,13 @@ header .zt>img{
 	display:flex;
 	justify-content: center;
 	align-items: center;
+	position:absolute;
+	top:0rem;
+	left:0rem;
+}
+.box{
+	width:100%;
+	height:1.02rem;
 }
 .banner>span{
 	display:block;
@@ -107,6 +110,9 @@ header .zt>img{
 	float:left;
 	margin-left:0.3rem;
 	overflow:hidden;
+}
+.floor2>.imgbox>img{
+	width:100%;
 }
 .floor2>.textbox{
 	display:inline-block;

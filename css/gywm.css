@@ -1,15 +1,13 @@
-header{
+body,html{
 	width:100%;
-	overflow:hidden;
+	height:100%;
 }
-header .zt{
-	width:100%;
-	height:0.4rem;
-	overflow:hidden;
+body{
+	overflow:scroll;
 }
-header .zt>img{
-	width:100%;
-	height:0.4rem;
+html{
+	overflow:hidden;
+	position:relative;
 }
 .banner{
 	width:100%;
@@ -20,6 +18,13 @@ header .zt>img{
 	display:flex;
 	justify-content: center;
 	align-items: center;
+	position:absolute;
+	top:0rem;
+	left:0rem;
+}
+.box{
+	width:100%;
+	height:1.02rem;
 }
 .banner>span{
 	display:block;
@@ -110,8 +115,21 @@ header .zt>img{
 	padding-right:0.13rem;
 }
 /*第三层*/
-.floor2 .p1 img{
-	margin:0.36rem 0.36rem;
+.floor2 .imgbox1{
+	width:100%;
+	overflow: hidden;
+}
+.floor2 .imgbox1 img{
+	display:inline-block;
+	width:25%;
+	height:25%;
+	margin-right: 0.5rem;
+}
+.floor2 .imgbox1 img:last-child{
+	margin-right:0rem;
+}
+.floor2 .imgbox1 img:first-child{
+	margin-left:0.3rem;
 }
 /*第四层*/
 .floor2 .p3{
@@ -132,20 +150,20 @@ header .zt>img{
 	width:0.58rem;
 	height:0.31rem;
 	border:0.01rem solid #CCCCCC;
-	border-radius:45%;
+	border-radius:0.45rem;
 	display:flex;
 	align-items: center;
 	justify-content: center;
 }
 .nav .item1:first-child{
-	margin-left:0.38rem;
+	margin-left:0.15rem;
 	margin-right:0.16rem;
 }
 .nav .item1>.item1-son{
 	width:0.5rem;
 	height:0.25rem;
 	border:0.01rem solid #393939;
-	border-radius:45%;
+	border-radius:0.45rem;
 	background:#fff;
 	line-height: 0.25rem;
 	text-align:center;
@@ -185,6 +203,7 @@ header .zt>img{
 	background:#fff;
 	line-height: 0.25rem;
 	text-align:center;
+	font-size:0.12rem;
 	color:#585858;
 }
 .nav>ul>li:nth-child(6){
@@ -216,6 +235,8 @@ header .zt>img{
 	text-align: center;
 }
 .img img{
+	width:auto;
+	height:auto;
 	padding:0.36rem 0rem;
 }
 footer{
